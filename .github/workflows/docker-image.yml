@@ -28,4 +28,4 @@ jobs:
       run: |
         docker build . -t hptestgit/continuous-php-image
         docker tag hptestgit/continuous-php-image:latest public.ecr.aws/m4i8a5x2/hptestecrrepo:latest
-        docker push public.ecr.aws/m4i8a5x2/hptestgit/continuous-php-image:latest
+        docker push public.ecr.aws/m4i8a5x2/hptestecrrepo:latest
