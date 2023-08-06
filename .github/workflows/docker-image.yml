@@ -27,5 +27,5 @@ jobs:
     - name: Build tag push Docker image
       run: |
         docker build . -t hptestgit/continuous-php-image
-        docker tag hptestecrrepo:latest public.ecr.aws/m4i8a5x2/hptestecrrepo:latest
-        docker push public.ecr.aws/m4i8a5x2/hptestecrrepo:latest
+        docker tag hptestecrrehptestgit/continuous-php-imagepo:latest public.ecr.aws/m4i8a5x2/hptestecrrepo:latest
+        docker push public.ecr.aws/m4i8a5x2/hptestgit/continuous-php-image:latest
